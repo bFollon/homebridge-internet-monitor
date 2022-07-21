@@ -1,0 +1,8 @@
+[Unit]
+Description=Homebridge internet connectivity monitor
+
+[Service]
+ExecStart=/home/pi/scripts/internet-check.sh
+
+[Install]
+WantedBy=multi-user.target
